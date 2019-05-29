@@ -102,6 +102,8 @@ namespace Testing
                             String precio1 = Console.ReadLine();
                             producto.Precio = Convert.ToDouble(precio1);
 
+
+
                             //Console.WriteLine("Type a new Admission Impuesto, actual value is " + producto.Precio);
                             //String Impuesto1 = Console.ReadLine();
                             //producto.Impuesto = Convert.ToDouble(Impuesto1);

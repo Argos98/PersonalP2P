@@ -9,7 +9,7 @@ using Entities_POJO;
 
 namespace DataAcess.Crud
 {
-    class DireccionCrudFactory : CrudFactory
+  public  class DireccionCrudFactory : CrudFactory
     {
         DireccionMapper mapper;
         public DireccionCrudFactory() : base()

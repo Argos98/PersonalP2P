@@ -9,7 +9,7 @@ using Entities_POJO;
 
 namespace DataAcess.Crud
 {
-    class ContactoCrudFactory : CrudFactory
+  public  class ContactoCrudFactory : CrudFactory
     {
 
         ContactoMapper mapper;

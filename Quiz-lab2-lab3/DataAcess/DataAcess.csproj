@@ -60,7 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Crud\ClienteCrudFactory.cs" />
+    <Compile Include="Crud\ContactoCrudFactory.cs" />
     <Compile Include="Crud\CrudFactory.cs" />
+    <Compile Include="Crud\DireccionCrudFactory.cs" />
     <Compile Include="Crud\ProductoCrudFactory.cs" />
     <Compile Include="Dao\SqlDao.cs" />
     <Compile Include="Dao\SqlOperation.cs" />

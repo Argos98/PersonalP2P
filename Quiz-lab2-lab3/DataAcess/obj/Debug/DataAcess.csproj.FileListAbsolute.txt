@@ -1,0 +1,13 @@
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\obj\Debug\DataAcess.csprojAssemblyReference.cache
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\obj\Debug\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\DataAcess.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\DataAcess.pdb
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\BaseEntity.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\System.Security.AccessControl.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\System.Security.Permissions.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\bin\Debug\BaseEntity.pdb
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\obj\Debug\DataAcess.csproj.CopyComplete
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\obj\Debug\DataAcess.dll
+C:\Users\David\Documents\Programacion\Presencial p2\DataAcess\obj\Debug\DataAcess.pdb

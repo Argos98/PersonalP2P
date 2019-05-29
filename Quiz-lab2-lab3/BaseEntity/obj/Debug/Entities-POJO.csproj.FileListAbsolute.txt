@@ -1,0 +1,13 @@
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\BaseEntity.dll
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\BaseEntity.pdb
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\Glosharp.dll
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\RestSharp.dll
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\bin\Debug\RestSharp.xml
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\Entities-POJO.csprojAssemblyReference.cache
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\Entities-POJO.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\Entities-POJO.csproj.CopyComplete
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\BaseEntity.dll
+C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\BaseEntity.pdb

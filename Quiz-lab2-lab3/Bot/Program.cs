@@ -10,15 +10,13 @@ namespace Awesome
     class Program
     {
         static ITelegramBotClient botClient;
-
+     static  Contacto contacto = new Contacto();
         static void Main()
         {
             botClient = new TelegramBotClient("821600759:AAHI2fu51znnt5vFPz7SKoBO3nIgNNPKfg4");
 
             var me = botClient.GetMeAsync().Result;
-            Console.WriteLine(
-              $"Hello, World! I am user {me.Id} and my name is {me.FirstName}."
-            );
+           
 
             botClient.OnMessage += Bot_OnMessage;
             botClient.StartReceiving();
@@ -27,29 +25,45 @@ namespace Awesome
 
         static async void Bot_OnMessage(object sender, MessageEventArgs e)
         {
-            ClienteMagament clienteMagament = new ClienteMagament();
+            ContactoMagament contantoMagament = new ContactoMagament();
 
-            Cliente cliente = new Cliente();
-            if (e.Message.Text != null)
+            var opcion = e.Message.Text;
+          
+
+
+            switch (opcion)
             {
-                Console.WriteLine($"Received a text message in chat {e.Message.Chat.Id}.");
-
-                await botClient.SendTextMessageAsync(
-                  chatId: e.Message.Chat,
-                  text: "You said:\n" + e.Message.Text
-                 
-                );
-                var x = e.Message.Text;
-                Console.WriteLine(x);
+                
+                case "1":
+                    leerDatos(e);
+                    opcion = null;
+                    break;
 
 
-                cliente.Nombre = x;
-                Console.WriteLine(x);
+                default:
+                    await botClient.SendTextMessageAsync(e.Message.Chat.Id, @"Usage:
+                        1.Registrar un Contacto
+
+                        ");
+                    break;
+               
+
+
+
 
             }
-
-            clienteMagament.Create(cliente);
+                       
+              
+            }
+       
+         static async void leerDatos(MessageEventArgs e)
+        {
+            await botClient.SendTextMessageAsync(
+        chatId: e.Message.Chat,
+        text: "You said:\n" + e.Message.Text
+      );
+        }
 
         }
     }
-}
+

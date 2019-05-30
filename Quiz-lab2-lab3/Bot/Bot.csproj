@@ -61,6 +61,10 @@
       <Project>{3F6A6DF8-078F-428D-A11D-5B3ACF731F67}</Project>
       <Name>Entities-POJO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Test\Test.csproj">
+      <Project>{9660A383-CDF4-4222-AFB4-7C96CCBBC844}</Project>
+      <Name>Test</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

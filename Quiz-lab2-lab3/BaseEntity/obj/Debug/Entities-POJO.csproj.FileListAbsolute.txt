@@ -11,3 +11,16 @@ C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\Entitie
 C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\Entities-POJO.csproj.CopyComplete
 C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\BaseEntity.dll
 C:\Users\David\Documents\Programacion\Presencial p2\BaseEntity\obj\Debug\BaseEntity.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\BaseEntity.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\BaseEntity.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\Glosharp.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\RestSharp.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\bin\Debug\RestSharp.xml
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\obj\Debug\Entities-POJO.csprojAssemblyReference.cache
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\obj\Debug\Entities-POJO.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\obj\Debug\Entities-POJO.csproj.CopyComplete
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\obj\Debug\BaseEntity.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\BaseEntity\obj\Debug\BaseEntity.pdb

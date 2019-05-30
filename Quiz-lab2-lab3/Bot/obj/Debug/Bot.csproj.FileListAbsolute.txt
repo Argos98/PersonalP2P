@@ -1,0 +1,14 @@
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Bot.exe.config
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Bot.exe
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Bot.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Telegram.Bot.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Telegram.Bot.xml
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.csproj.CopyComplete
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.exe
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.csprojAssemblyReference.cache
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\BaseEntity.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\BaseEntity.pdb

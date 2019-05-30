@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class ClienteMagament
+   public class ClienteMagament
     {
         private ClienteCrudFactory crudFactory;
 

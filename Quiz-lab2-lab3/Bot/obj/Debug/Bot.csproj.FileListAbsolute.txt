@@ -32,3 +32,9 @@ C:\Users\David\Documents\Programacion\Presencial p2\PersonalP2P\Quiz-lab2-lab3\B
 C:\Users\David\Documents\Programacion\Presencial p2\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.exe
 C:\Users\David\Documents\Programacion\Presencial p2\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.pdb
 C:\Users\David\Documents\Programacion\Presencial p2\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.exe.config
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Test.exe
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\DataAcess.dll
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Test.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\Test.exe.config
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\bin\Debug\DataAcess.pdb
+C:\Users\oscar\Documents\P2 ProyectoPersonal(Presencial)\PersonalP2P\Quiz-lab2-lab3\Bot\obj\Debug\Bot.exe.config

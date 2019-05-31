@@ -10,13 +10,15 @@ namespace Awesome
     class Program
     {
         static ITelegramBotClient botClient;
-     static  Contacto contacto = new Contacto();
+        static Contacto contacto = new Contacto();
+        static ContactoMagament contantoMagament = new ContactoMagament();
+        static string opcion;
         static void Main()
         {
             botClient = new TelegramBotClient("821600759:AAHI2fu51znnt5vFPz7SKoBO3nIgNNPKfg4");
 
             var me = botClient.GetMeAsync().Result;
-           
+
 
             botClient.OnMessage += Bot_OnMessage;
             botClient.StartReceiving();
@@ -25,45 +27,86 @@ namespace Awesome
 
         static async void Bot_OnMessage(object sender, MessageEventArgs e)
         {
-            ContactoMagament contantoMagament = new ContactoMagament();
-
-            var opcion = e.Message.Text;
-          
 
 
-            switch (opcion)
+            opcion = e.Message.Text;
+
+            if (opcion == "1")
             {
-                
-                case "1":
-                    leerDatos(e);
-                    opcion = null;
-                    break;
+
+                switch (opcion)
+                {
+
+                    case "1":
+                        await botClient.SendTextMessageAsync(
+                                chatId: e.Message.Chat,
+                                text: "Escriba los siguientes datos Tipo Contacto, Valor, Descripcion, Publicidad, Cedula Cliente "
+                             );
 
 
-                default:
-                    await botClient.SendTextMessageAsync(e.Message.Chat.Id, @"Usage:
-                        1.Registrar un Contacto
+                        break;
 
-                        ");
-                    break;
-               
+                    case "Que puedes hacer":
+                        await botClient.SendTextMessageAsync(
+                                chatId: e.Message.Chat,
+                                text: "Puedo ayudarte a registra, modificar y eleminar contactos de un cliente"
+                        );
+                        opcion = null;
+
+                        break;
+
+                    case "Que haces?":
+                        await botClient.SendTextMessageAsync(
+                                chatId: e.Message.Chat,
+                                text: "Puedo ayudarte a registra, modificar y eleminar contactos de un cliente"
+                        );
+                        opcion = null;
+
+                        break;
+
+                    case "Hola":
+                        await botClient.SendTextMessageAsync(
+                                chatId: e.Message.Chat,
+                                text: "Hola " + e.Message.Chat.Username + ", como estas?"
+                        );
+                        opcion = null;
+
+                        break;
 
 
 
 
+                    default:
+                        await botClient.SendTextMessageAsync(e.Message.Chat.Id, @"Usage:
+                                  1.Registrar un Contacto
+                                  2.Modificar un Contacto
+                                  3.Eleminar  un Contacto
+
+                                ");
+                        break;
+
+                }
             }
-                       
-              
-            }
-       
-         static async void leerDatos(MessageEventArgs e)
-        {
-            await botClient.SendTextMessageAsync(
-        chatId: e.Message.Chat,
-        text: "You said:\n" + e.Message.Text
-      );
+            //else
+            //{
+
+            //    var info = e.Message.Text;
+            //    var infoArray = info.Split(',');
+
+
+            //    contacto = new Contacto(infoArray);
+            //    contantoMagament.Create(contacto);
+
+            //}
+
+
+
+
         }
 
-        }
+
+
+
     }
+}
 

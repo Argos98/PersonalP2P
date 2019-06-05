@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Entities_POJO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaseEntity
+namespace Entities_POJO
 {
-    public class Tarjeta
+    public class Tarjeta : BaseEntity
+
     {
         String NumeroTarjeta { get; set; }
         String Fecha { get; set; }
@@ -18,5 +20,7 @@ namespace BaseEntity
         {
 
         }
+
+
     }
 }

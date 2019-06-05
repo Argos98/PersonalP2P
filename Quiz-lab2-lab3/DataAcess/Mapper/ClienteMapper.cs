@@ -10,24 +10,22 @@ namespace DataAcess.Mapper
 {
     class ClienteMapper : EntityMapper, ISqlStaments, IObjectMapper
     {
-        private const String BD_COL_Nombre= "Nombre";
-        private const String BD_COL_Apellido= "Apellido";
-        private const String BD_COL_FechaInicio= "Fecha_Inicio";
+        private const String BD_COL_Nombre = "Nombre";
+        private const String BD_COL_Apellido = "Apellido";
         private const String BD_COL_Genero = "Genero";
         private const String BD_COL_Estado = "Estado";
         private const String BD_COL_Cedula = "Cedula";
-                             
+
         public BaseEntity BuildObject(Dictionary<string, object> row)
         {
 
             var c = new Cliente
             {
-                Nombre = GetStringValue(row,BD_COL_Nombre),
-                Apellido = GetStringValue(row,BD_COL_Apellido),
-                FechaInicio = GetStringValue(row,BD_COL_FechaInicio),
-                Genero =GetStringValue(row,BD_COL_Genero),
-                Estado =GetStringValue(row,BD_COL_Estado),
-                Cedula=GetStringValue(row,BD_COL_Cedula)
+                Nombre = GetStringValue(row, BD_COL_Nombre),
+                Apellido = GetStringValue(row, BD_COL_Apellido),
+                Genero = GetStringValue(row, BD_COL_Genero),
+                Estado = GetStringValue(row, BD_COL_Estado),
+                Cedula = GetStringValue(row, BD_COL_Cedula)
             };
             return c;
         }
@@ -52,7 +50,6 @@ namespace DataAcess.Mapper
             var c = (Cliente)entity;
             operation.AddVarcharParam(BD_COL_Nombre, c.Nombre);
             operation.AddVarcharParam(BD_COL_Apellido, c.Apellido);
-            operation.AddVarcharParam(BD_COL_FechaInicio, c.Genero);
             operation.AddVarcharParam(BD_COL_Estado, c.Estado);
             operation.AddVarcharParam(BD_COL_Cedula, c.Cedula);
 
@@ -75,7 +72,7 @@ namespace DataAcess.Mapper
 
         public SqlOperation GetRetriveStatement(BaseEntity entity)
         {
-            var operation = new SqlOperation { ProcedureName = "RET_Cliente" };
+            var operation = new SqlOperation { ProcedureName = "RET_Clientes" };
 
             var c = (Cliente)entity;
             operation.AddVarcharParam(BD_COL_Cedula, c.Cedula);
@@ -90,7 +87,6 @@ namespace DataAcess.Mapper
             var c = (Cliente)entity;
             operation.AddVarcharParam(BD_COL_Nombre, c.Nombre);
             operation.AddVarcharParam(BD_COL_Apellido, c.Apellido);
-            operation.AddVarcharParam(BD_COL_FechaInicio, c.Genero);
             operation.AddVarcharParam(BD_COL_Estado, c.Estado);
             operation.AddVarcharParam(BD_COL_Cedula, c.Cedula);
 

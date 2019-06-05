@@ -38,5 +38,40 @@ namespace CoreAPI
 
         }
 
+        public List<Cliente> RetrieveAll()
+        {
+            return crudCliente.RetrieveAll<Cliente>();
+
+        }
+
+        public Cliente RetrieveById(Cliente cliente)
+        {
+            Cliente c = null;
+            try
+            {
+                c = crudCliente.Retrieve<Cliente>(cliente);
+
+                if (c == null)
+                {
+                    throw new BussinessException(4);
+                }
+            }
+            catch (Exception ex)
+            {
+                ExceptionManager.GetInstance().Process(ex);
+            }
+
+            return c;
+        }
+
+        public void Update(Cliente cliente)
+        {
+            crudCliente.Update(cliente);
+        }
+
+        public void Delete(Cliente cliente)
+        {
+            crudCliente.Delete(cliente);
+        }
     }
 }

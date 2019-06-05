@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entities_POJO
 {
-  public  class Cliente : BaseEntity
+    public class Cliente : BaseEntity
     {
         public String Nombre { get; set; }
         public String Apellido { get; set; }
-        public String FechaInicio { get; set; }
+
         public String Genero { get; set; }
         public String Estado { get; set; }
         public String Cedula { get; set; }
@@ -20,16 +20,15 @@ namespace Entities_POJO
 
         }
         public Cliente(string[] infoArray)
-        { 
-            if(infoArray!=null&& infoArray.Length >= 6)
+        {
+            if (infoArray != null && infoArray.Length >= 5)
             {
 
                 Nombre = infoArray[0];
                 Apellido = infoArray[1];
-                FechaInicio = infoArray[2];
-                Genero = infoArray[3];
-                Estado = infoArray[4];
-                Cedula = infoArray[5];
+                Genero = infoArray[2];
+                Estado = infoArray[3];
+                Cedula = infoArray[4];
 
             }
         }

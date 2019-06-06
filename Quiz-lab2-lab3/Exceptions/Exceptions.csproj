@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE68F413-04DB-453B-BF57-1F234503B808}</ProjectGuid>
+    <ProjectGuid>{69EABCFB-92F3-492A-9EB6-C89D19C980AF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Exceptions</RootNamespace>
     <AssemblyName>Exceptions</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,13 +46,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataAcess\DataAcess.csproj">
-      <Project>{303E74CC-1E4D-4EB9-B2F0-4B34F8FB1D31}</Project>
-      <Name>DataAcess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Entities-POJO\Entities-POJO.csproj">
-      <Project>{0F68B956-C774-491B-94F7-EC177D7DBD3C}</Project>
+    <ProjectReference Include="..\BaseEntity\Entities-POJO.csproj">
+      <Project>{3f6a6df8-078f-428d-a11d-5b3acf731f67}</Project>
       <Name>Entities-POJO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAcess\DataAcess.csproj">
+      <Project>{e1b396a7-08b0-46ea-8d34-b34982d07ec4}</Project>
+      <Name>DataAcess</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

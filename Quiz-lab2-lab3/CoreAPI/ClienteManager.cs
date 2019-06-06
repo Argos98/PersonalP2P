@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CoreAPI
 {
-    class ClienteManager : BaseManager
+    public class ClienteManager : BaseManager
     {
         private ClienteCrudFactory crudCliente;
 
